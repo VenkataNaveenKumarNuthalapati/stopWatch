@@ -1,0 +1,82 @@
+/* * {
+  border-style: solid;
+} */
+@media screen and (min-height: 768px) {
+  .bg-container {
+    min-height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+  }
+}
+@media screen and (max-height: 768px) {
+  .bg-container {
+    min-height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+  }
+}
+
+.watch-card {
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-text {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.timer-image {
+  height: 50px;
+  width: 50px;
+}
+.timer {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.start-btn {
+  background-color: #1db05f;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px;
+  width: 50px;
+  border-radius: 5px;
+}
+.stop-btn {
+  background-color: #ef0d36;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px;
+  width: 50px;
+  border-radius: 5px;
+}
+.reset-btn {
+  background-color: #eaa800;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px;
+  width: 50px;
+  border-radius: 5px;
+}
